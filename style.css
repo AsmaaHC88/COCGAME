@@ -1,0 +1,151 @@
+*{box-sizing: border-box;}
+img{
+width: 200px;
+height: 100px;
+margin: 5px;
+border-radius: 10px;}
+body{margin:0px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: rgb(206, 113, 193);}
+header{display:flex;
+justify-content:space-between;
+align-items: center;
+text-decoration: wavy;
+font-style: italic;
+padding:10px 20px;
+background-color: rgb(224, 136, 217);
+color: rgb(33, 11, 58);}
+nav ul{list-style: none;
+display:flex;
+}
+li{margin-right: 20px;}
+nav a{text-decoration: none;
+color: rgb(21, 11, 165);
+font-weight: bold;
+
+
+}
+nav a:hover{
+    color: rgb(123, 172, 32);
+}
+.welcome{display:flex;
+flex-direction:column;
+align-items: center;
+justify-content: center;
+background-image: url("cocheader7.jpg");
+border-end-end-radius: 6px;
+
+ height:600px; 
+background-repeat: no-repeat;
+background-size: cover ;
+
+color: rgb(6, 0, 58);
+text-align: center;}
+.welcome h2{
+
+    font-size: 30px;
+    margin-bottom:20px
+}
+.welcome button {
+padding:10px 20px;
+background-color: blueviolet;
+font-size: 16px;
+border:none;
+color: aquamarine;
+border-radius:5px ;
+}
+.latest { text-align: center;
+
+
+background-color: rgb(209, 81, 177);
+color: rgb(25, 25, 134);
+
+}
+.latest p{
+margin-bottom: 30px;
+line-height: 20px;
+
+
+font-size: 30px;
+/* background-color: rgb(4, 0, 255); */
+background-size: auto;
+margin-left: 100px;
+margin-right: 100px;
+min-height: 30px;
+line-height: normal;
+
+}
+.latest h2{
+font-size: 25px;
+margin-bottom: 5px;
+/* background-color: rgb(190, 127, 190); */
+}
+.gallery{
+    color: rgb(25, 25, 134);
+text-align: center;
+padding: 50px 20px;
+}
+.gallery h2{font-size: 30px;
+margin-bottom: 20px;}
+.imagescontainer{
+   
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-gap: 20px;
+}
+.cute{
+    font-size: 50px;
+margin: 20px;
+
+}
+.mycat img{
+height:500px ;
+width:auto ;
+}
+
+
+
+
+footer{
+    padding: 20px 20px;
+    text-align: center;
+background-color: rgb(224, 86, 194);}
+.imagescontainer img{
+width: 100%;
+height: auto;
+border-radius: 5px;
+}
+footer p{font-size: 14px;
+     color: rgb(15, 12, 245);
+    max-height: 2px;
+   
+    }
+    footer{
+        color: blue;
+    }
+footer img{
+
+height: 20px;
+width: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
